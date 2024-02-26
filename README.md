@@ -1,2 +1,3 @@
 # Classification of Image Data with Multilayer Perceptron and Convolutional Neural Networks
-This project involves the implementation of a multilayer perceptron (MLP) for image classification and experimentation with convolutional neural networks (CNNs) using pre-trained models.
+
+This project involves the implementation of three MLP models with backpropagation and mini-batch stochastic gradient descent to classify the CIFAR-10 image dataset. The accuracy of the MLP models was reported for normalized and unnormalized data, different numbers of hidden layers (zero, one, and two layers), various activation functions (ReLu, tanh, and leaky-ReLu), and other hyperparameters. The performance of the MLP models was compared to that of a CNN model with two convolutional and two fully connected layers created with the TensorFlow library.
